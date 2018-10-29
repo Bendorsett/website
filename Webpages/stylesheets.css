@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #01e8ff85;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+    
+
+
+body{
+    background-image:"wallpaper.png";
+    background-size:contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+    
+}
+
+div.footer{
+    background-color:#c5aa6a;
+    
+
+
+}
+
+div.pics{
+    background-color: beige;
+    text-align: center;
+    padding: 40px;
+    margin: 100px;
+}
+div.pics li{
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    size: 20px;
+    
+
+
+}
+
+div.pichead{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 420px;
+    font-family: 'Courier New', Courier, monospace;
+
+
+
+
+
+    
+
+
+}
+h1.title{
+    float: left;
+    padding: 10px 0;
+    font-family: 'Playfair Display', serif;;
+
+
+}
+
+
+
+h1.title2{
+text-align: center;
+padding:325px;
+margin-top: 10px;
+font-size: 70px;
+font-family: 'Playfair Display', serif;
+color:white
+
+
+}
+
+
+
+span.red{
+    color: #01e8ff85
+}
+
+
+footer{
+background-color: #0e7079a1;
+color:white;
+
+
+
+}
+
+
+footer li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+  
+    position: relative;
+}
+
+
+footer h1{
+ 
+margin-left:25px;
+margin-top:20px
+
+}
+
+
+footer img{
+height:50px;
+width: 50px;
+
+}
